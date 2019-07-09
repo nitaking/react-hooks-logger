@@ -1,27 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
-// import { useReducerWithLogger } from 'hooks-logger';
+import { useReducer, useLogState } from 'hooks-logger';
 import './App.css';
 
-const useReducerWithLogger = (reducer: any, initialState: any) => {
-const [state, dispatch] = React.useReducer(reducer, initialState);
-  console.log({
-    reducer,
-  });
+// const useReducerWithLogger = (reducer: any, initialState: any) => {
+// const [state, dispatch] = React.useReducer(reducer, initialState);
+//   console.log({
+//     reducer,
+//   });
 
-  const watchDispatch = (props) => {
-    console.log({
-      type: props.type,
-      payload: props.payload
-    })
-    console.log("%cPrevious State:", "color: #9E9E9E; font-weight: 700;", state);
-    console.log("%cAction:", "color: #00A7F7; font-weight: 700;", props);
-    console.log("%cNext State:", "color: #47B04B; font-weight: 700;", );
-    dispatch(props);
-  }
+//   const watchDispatch = (props) => {
+//     console.log({
+//       type: props.type,
+//       payload: props.payload
+//     })
+//     console.log("%cPrevious State:", "color: #9E9E9E; font-weight: 700;", state);
+//     console.log("%cAction:", "color: #00A7F7; font-weight: 700;", props);
+//     console.log("%cNext State:", "color: #47B04B; font-weight: 700;", );
+//     dispatch(props);
+//   }
 
-  return [state, watchDispatch];
-};
+//   return [state, watchDispatch];
+// };
 
 export const TYPES = {
   COUNT_UP : 'count-up',
@@ -48,7 +48,14 @@ function reducer(state, action) {
 const initialState = { count: 0 };
 
 function App() {
-  const [state, dispatch] = useReducerWithLogger(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initialState, React);
+  const { visible, setVisible } = useLogState({
+    isDev: process.env.NODE_ENV !== 'development',
+    react: React
+  });
+  console.log({ visible} )
+  const { visible: visible2 } = useLogState({ react: React });
+  console.log({ visible2 } )
   const inputRef = React.createRef();
 
   return (

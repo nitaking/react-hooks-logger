@@ -1786,6 +1786,13 @@ react@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
+reactn@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/reactn/-/reactn-2.1.4.tgz#56dea6127fd094fa772b36a86ad933ceadb87999"
+  integrity sha512-RF1HR5pDVAAOhmPcZb/03l1xr/qGp2NqTyvDyOjL8OjrctjonyW46CsYlKAG26Xlo56PDhfssiDYMQ75RYyOlg==
+  dependencies:
+    use-force-update "^1.0.5"
+
 readable-stream@^2.0.2, readable-stream@^2.0.6:
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
@@ -2333,6 +2340,11 @@ url-parse-lax@^1.0.0:
   integrity sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
   dependencies:
     prepend-http "^1.0.1"
+
+use-force-update@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/use-force-update/-/use-force-update-1.0.6.tgz#5d9f589756f4440609d8288c1e107294fe099b36"
+  integrity sha512-RekeU3l01HIJkwRKouQm+mQ++vWaTRw2qMLPrHB8zupXYKK5a6DkTESm3zjXlPlPnF22Ug1cI/7LPtqPFObSwA==
 
 use@^3.1.0:
   version "3.1.1"

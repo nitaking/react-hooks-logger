@@ -1,1 +1,1 @@
-export { useReducerWithLogger } from './useLogger';
+export { useReducer, useLogState } from './useLogger';
