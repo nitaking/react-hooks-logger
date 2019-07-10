@@ -1,27 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import { useReducer, useLogState } from 'hooks-logger';
+import React, { useReducer } from 'react';
+import { LoggerProvider } from 'hooks-logger';
 import './App.css';
-
-// const useReducerWithLogger = (reducer: any, initialState: any) => {
-// const [state, dispatch] = React.useReducer(reducer, initialState);
-//   console.log({
-//     reducer,
-//   });
-
-//   const watchDispatch = (props) => {
-//     console.log({
-//       type: props.type,
-//       payload: props.payload
-//     })
-//     console.log("%cPrevious State:", "color: #9E9E9E; font-weight: 700;", state);
-//     console.log("%cAction:", "color: #00A7F7; font-weight: 700;", props);
-//     console.log("%cNext State:", "color: #47B04B; font-weight: 700;", );
-//     dispatch(props);
-//   }
-
-//   return [state, watchDispatch];
-// };
 
 export const TYPES = {
   COUNT_UP : 'count-up',
@@ -47,47 +26,61 @@ function reducer(state, action) {
 
 const initialState = { count: 0 };
 
-function App() {
-  const [state, dispatch] = useReducer(reducer, initialState, React);
-  const { visible, setVisible } = useLogState({
-    isDev: process.env.NODE_ENV !== 'development',
-    react: React
-  });
-  console.log({ visible} )
-  const { visible: visible2 } = useLogState({ react: React });
-  console.log({ visible2 } )
+
+const Counter = (props) => {
+  console.log({
+    props
+  })
   const inputRef = React.createRef();
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
     <div className="App">
       <header className="App-header">
-      <input ref={inputRef} defaultValue={1} />
+        <input ref={inputRef} defaultValue={1} />
 
-      <button
-        style={{ height: '20px', width: '100px', backgroundColor: 'green' }}
-        onClick={() =>
-          dispatch({
-            type: TYPES.COUNT_UP,
-            payload: { count: Number(inputRef.current.value) }
-          })
-        }
-      />
+        <button
+          style={{ height: '20px', width: '100px', backgroundColor: 'green' }}
+          onClick={() =>
+            dispatch({
+              type: TYPES.COUNT_UP,
+              payload: { count: Number(inputRef.current.value) }
+            })
+          }
+        />
 
-      <button
-        style={{ height: '20px', width: '100px', backgroundColor: 'blue' }}
-        onClick={() =>
-          dispatch({
-            type: TYPES.COUNT_DOWN,
-            payload: { count: Number(inputRef.current.value) }
-          })
-        }
-      />
+        <button
+          style={{ height: '20px', width: '100px', backgroundColor: 'blue' }}
+          onClick={() =>
+            dispatch({
+              type: TYPES.COUNT_DOWN,
+              payload: { count: Number(inputRef.current.value) }
+            })
+          }
+        />
 
-      count: {state.count}
+        count: {state.count}
 
       </header>
     </div>
   );
 }
+
+function App() {
+  // const [state, dispatch] = useReducer(reducer, initialState, React);
+  // const { visible, setVisible } = useLogState({
+  //   isDev: process.env.NODE_ENV !== 'development',
+  //   react: React
+  // });
+  // console.log({ visible} )
+  // const { visible: visible2 } = useLogState({ react: React });
+  // console.log({ visible2 } )
+
+  return (
+      <Counter />
+  );
+}
+
+
 
 export default App;

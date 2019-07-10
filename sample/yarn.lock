@@ -4439,10 +4439,8 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hooks-logger@0.0.1:
+"hooks-logger@file:..":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hooks-logger/-/hooks-logger-0.0.1.tgz#f9b131a9ceab18e43321e5b947fd70d77b746a9e"
-  integrity sha512-7dOmgTDSg+OUH49QOoIPJL4x1lzbhdgFaNcJxTevat8PIIfEgJ4UGbnHWkBIE5b86XG6B2SOPMsDhkCIxizUFA==
   dependencies:
     react "^16.8.6"
     typescript "^3.5.2"

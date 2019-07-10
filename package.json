@@ -6,11 +6,12 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist/",
+    "package.json",
     "README.md"
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "eslint 'src/**/*.ts'",
+    "lint": "eslint 'src/**/*.ts*'",
     "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
   },
   "author": "nitaking <10850034+nitaking@users.noreply.github.com>",
