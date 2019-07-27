@@ -2,7 +2,6 @@
   <h1>
     <br/>
     <br/>
-    👍
     <br />
     react-hooks-logger
     <br />
@@ -74,3 +73,5 @@ const Demo = () => {
   );
 };
 ```
+
+
