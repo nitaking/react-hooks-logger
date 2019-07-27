@@ -74,5 +74,14 @@ const Demo = () => {
 };
 ```
 
+## Dev Environment
+```jsx
+import { useReducer } from 'react';
+import { useReducer: useReducerWithLog } from 'react-hooks-logger';
+
+export const useMyReducer = 
+  process.env.NODE_ENV === 'development' ? useReducerWithLog : useReducer;
+```
+
 # Todo
 - [ ] Another Hooks API logger
