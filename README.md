@@ -48,23 +48,27 @@ const Demo = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div> 
+<div>
       <button
         onClick={() =>
           dispatch({
-            type: 'count-up',
+            type: "count-up",
             payload: { count: 1 }
           })
         }
-      />
+      >
+        +
+      </button>
       <button
         onClick={() =>
           dispatch({
-           type: 'count-down',
+            type: "count-down",
             payload: { count: 1 }
           })
         }
-      />
+      >
+        -
+      </button>
       count: {state.count}
     </div>
   );
