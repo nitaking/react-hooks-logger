@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReducer } from 'hooks-logger';
+import { useReducer } from 'react-hooks-logger';
 import './App.css';
 
 export const TYPES = {

@@ -4439,11 +4439,6 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hooks-logger@0.0.9:
-  version "0.0.9"
-  resolved "http://localhost:4873/hooks-logger/-/hooks-logger-0.0.9.tgz#8f636ac3792561cf373cc4e2c66c6ad01688b4c8"
-  integrity sha512-fGi/kUU0vtAJxQpDm902JedixT6W9RsEHSqxVx9PX2yeFMUHHuSIcnKHJm8BRZng1E5yKXJDxnzkFyqz8WxMuQ==
-
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
@@ -7899,6 +7894,11 @@ react-error-overlay@^5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
   integrity sha512-X1Y+0jR47ImDVr54Ab6V9eGk0Hnu7fVWGeHQSOXHf/C2pF9c6uy3gef8QUeuUiWlNb0i08InPSE5a/KJzNzw1Q==
+
+react-hooks-logger@1.0.0:
+  version "1.0.0"
+  resolved "http://localhost:4873/react-hooks-logger/-/react-hooks-logger-1.0.0.tgz#d0c24ad15e862b89e1cc4eb72423c763f4d6909d"
+  integrity sha512-Id+GmU93wjr+2e/jRXDX0QALUe6asnZ81bJHMsTCxQtYftNZaLLoc9E/GQEXn3FW09WC0Oi29CWo6EWbv58THQ==
 
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"

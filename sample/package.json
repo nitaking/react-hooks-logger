@@ -8,7 +8,7 @@
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "hooks-logger": "0.0.9"
+    "react-hooks-logger": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
