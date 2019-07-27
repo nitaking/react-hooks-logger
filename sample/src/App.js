@@ -28,7 +28,6 @@ const initialState = { count: 0 };
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
-  // console.log({ showLogger} )
   const inputRef = React.createRef();
 
   return (

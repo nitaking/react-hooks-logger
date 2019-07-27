@@ -1,6 +1,6 @@
 {
-  "name": "hooks-logger",
-  "version": "0.0.9",
+  "name": "react-hooks-logger",
+  "version": "1.0.0",
   "description": "Simple react hooks logger.",
   "main": "src/index.js",
   "files": [
