@@ -2,6 +2,13 @@
   "name": "react-hooks-logger",
   "version": "1.0.0",
   "description": "Simple react hooks logger.",
+  "keywords": [
+    "react",
+    "react-dom",
+    "react-native",
+    "hooks",
+    "react-hooks"
+  ],
   "main": "src/index.js",
   "files": [
     "dist/",
