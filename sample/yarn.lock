@@ -4439,13 +4439,10 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hooks-logger@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hooks-logger/-/hooks-logger-0.0.1.tgz#f9b131a9ceab18e43321e5b947fd70d77b746a9e"
-  integrity sha512-7dOmgTDSg+OUH49QOoIPJL4x1lzbhdgFaNcJxTevat8PIIfEgJ4UGbnHWkBIE5b86XG6B2SOPMsDhkCIxizUFA==
-  dependencies:
-    react "^16.8.6"
-    typescript "^3.5.2"
+hooks-logger@0.0.9:
+  version "0.0.9"
+  resolved "http://localhost:4873/hooks-logger/-/hooks-logger-0.0.9.tgz#8f636ac3792561cf373cc4e2c66c6ad01688b4c8"
+  integrity sha512-fGi/kUU0vtAJxQpDm902JedixT6W9RsEHSqxVx9PX2yeFMUHHuSIcnKHJm8BRZng1E5yKXJDxnzkFyqz8WxMuQ==
 
 hosted-git-info@^2.1.4:
   version "2.7.1"
@@ -7970,7 +7967,7 @@ react-scripts@3.0.1:
 
 react@^16.8.6:
   version "16.8.6"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  resolved "http://localhost:4873/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
   dependencies:
     loose-envify "^1.1.0"
@@ -9280,11 +9277,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
-  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
 
 uglify-js@3.4.x:
   version "3.4.10"

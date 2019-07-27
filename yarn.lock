@@ -1776,7 +1776,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react@^16.8.6:
+react@16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
@@ -1785,13 +1785,6 @@ react@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
-
-reactn@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/reactn/-/reactn-2.1.4.tgz#56dea6127fd094fa772b36a86ad933ceadb87999"
-  integrity sha512-RF1HR5pDVAAOhmPcZb/03l1xr/qGp2NqTyvDyOjL8OjrctjonyW46CsYlKAG26Xlo56PDhfssiDYMQ75RYyOlg==
-  dependencies:
-    use-force-update "^1.0.5"
 
 readable-stream@^2.0.2, readable-stream@^2.0.6:
   version "2.3.6"
@@ -2240,6 +2233,11 @@ ts-node@^8:
     source-map-support "^0.5.6"
     yn "^3.0.0"
 
+tsconfig-palmerhq@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-palmerhq/-/tsconfig-palmerhq-1.1.0.tgz#02269d41f8c5a8cc779cab6a0743ee5fdb0ec6fd"
+  integrity sha512-w6BGEHsJzicrX/QJae51hpooJEaYOboa675c/6va0o5LCaltJWQnuiE5ySLT4ZEq3ozPQCMWd/R7AS8nhMN6cg==
+
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
@@ -2340,11 +2338,6 @@ url-parse-lax@^1.0.0:
   integrity sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
   dependencies:
     prepend-http "^1.0.1"
-
-use-force-update@^1.0.5:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/use-force-update/-/use-force-update-1.0.6.tgz#5d9f589756f4440609d8288c1e107294fe099b36"
-  integrity sha512-RekeU3l01HIJkwRKouQm+mQ++vWaTRw2qMLPrHB8zupXYKK5a6DkTESm3zjXlPlPnF22Ug1cI/7LPtqPFObSwA==
 
 use@^3.1.0:
   version "3.1.1"
