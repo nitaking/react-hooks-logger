@@ -1,5 +1,3 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/41e77fee6a93bef8b9c4/maintainability)](https://codeclimate.com/github/nitaking/react-hooks-logger/maintainability)
-
 <div align="center">
   <h1>
     <br/>
@@ -28,6 +26,8 @@
 
 Simple hooks logger.
 (Respect [redux-logger](https://github.com/LogRocket/redux-logger) and [use-reducer-logger](https://github.com/jefflombard/use-reducer-logger))
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/41e77fee6a93bef8b9c4/maintainability)](https://codeclimate.com/github/nitaking/react-hooks-logger/maintainability)
 
 ## Usage
 
