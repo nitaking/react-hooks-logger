@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/41e77fee6a93bef8b9c4/maintainability)](https://codeclimate.com/github/nitaking/react-hooks-logger/maintainability)
+
 <div align="center">
   <h1>
     <br/>
