@@ -7,7 +7,11 @@
     "react-dom",
     "react-native",
     "hooks",
-    "react-hooks"
+    "react-hooks",
+    "react-hooks-logger",
+    "logger",
+    "redux-logger",
+    "flux"
   ],
   "main": "src/index.js",
   "files": [
@@ -20,7 +24,9 @@
     "tags": "git push origin --tags",
     "prepack": "oclif-dev readme && yarn tags"
   },
-  "author": "nitaking <10850034+nitaking@users.noreply.github.com>",
+  "author": "nitaking @nitaking",
+  "homepage": "https://github.com/nitaking/react-hooks-logger",
+  "repository": "nitaking/react-hooks-logger",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
