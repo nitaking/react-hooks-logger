@@ -79,8 +79,8 @@ const Demo = () => {
 ## Dev Environment
 Create custom hooks.
 ```jsx
-import { useReducer: _useReducer } from 'react';
-import { useReducer: useReducerWithLog } from 'react-hooks-logger';
+import { useReducer as _useReducer } from 'react';
+import { useReducer as useReducerWithLog } from 'react-hooks-logger';
 
 export const useMyReducer = 
   process.env.NODE_ENV === 'development' ? useReducerWithLog : _useReducer;
