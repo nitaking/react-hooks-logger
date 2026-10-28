@@ -1,4 +1,5 @@
+// @ts-self-types="./index.d.ts"
 // import useToggle from './useToggle';
-const { useReducer } = require("./useLogger");
+import { useReducer } from "./useLogger.js";
 
 export { useReducer };

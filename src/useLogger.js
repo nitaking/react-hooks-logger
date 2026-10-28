@@ -1,4 +1,4 @@
-const { useReducer: _useReducer } = require("react");
+import { useReducer as _useReducer } from "react";
 
 const logger = (message, ...subMessages) => {
   console.log(message, ...subMessages);
