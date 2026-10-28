@@ -14,15 +14,14 @@
     "flux"
   ],
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
     "dist/",
     "src/",
     "README.md"
   ],
   "scripts": {
-    "lint": "eslint 'src/**/*.js'",
-    "tags": "git push origin --tags",
-    "prepack": "oclif-dev readme && yarn tags"
+    "lint": "eslint 'src/**/*.js'"
   },
   "author": "nitaking @nitaking",
   "homepage": "https://github.com/nitaking/react-hooks-logger",
@@ -30,15 +29,15 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "nodemon": "^1.19.1",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-prettier": "^3.4.1",
+    "nodemon": "^3",
     "prettier": "^1.18.2",
     "react": "16.8.6"
   },
   "peerDependencies": {
     "react": "^16.8.0"
-  }
+  },
+  "packageManager": "pnpm@12.5.1"
 }
