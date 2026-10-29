@@ -14,6 +14,7 @@
   <br />
   <br />
   <pre>npm i <a href="https://www.npmjs.com/package/react-hooks-logger">react-hooks-logger</a></pre>
+  <pre>npx jsr add <a href="https://jsr.io/@nitaking/react-hooks-logger">@nitaking/react-hooks-logger</a></pre>
   <br />
   <br />
   <br />
