@@ -4,7 +4,6 @@
 > It only supports React 16 and will not receive further updates or security fixes.
 > Please use one of the following alternatives instead:
 >
-> - [use-reducer-logger](https://github.com/jefflombard/use-reducer-logger) — drop-in `useReducer` logger
 > - [React Developer Tools](https://react.dev/learn/react-developer-tools) — inspect state and hooks in the browser
 >
 > This repository is no longer maintained and has been archived. Please use the alternative above.
