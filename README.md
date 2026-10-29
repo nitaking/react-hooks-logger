@@ -1,3 +1,9 @@
+> [!WARNING]
+> **This project is no longer maintained and has been archived.**
+>
+> It only supports React 16 and will not receive further updates or security fixes.
+> Please use one of the following alternatives instead:
+
 <div align="center">
   <h1>
     <br/>
